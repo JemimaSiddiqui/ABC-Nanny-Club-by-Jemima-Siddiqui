@@ -1,0 +1,20 @@
+
+footer {
+    color: var(--purple);
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    z-index: 100;
+    font-size: 1.5rem;
+    margin-top: 40px; 
+    margin: 0px;
+    
+  }
+    
+  .icon-bar a {
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: var(--dark);
+    font-size: 20px;
+  }

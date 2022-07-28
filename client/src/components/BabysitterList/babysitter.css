@@ -1,0 +1,66 @@
+/* Cards Styling  */
+.card {
+  color: var(--light);
+  background-color: var(--grey);
+  margin: 0.625rem 0;
+  transition: all 0.5s ease-in-out;
+  height: 100%;
+}
+
+.img {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: var(--light);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  color: var(--light);
+  background-color: var(--mauve);
+  padding: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-body {
+  padding: 0.25rem;
+}
+
+.card-item {
+  margin: 0.25rem 0;
+  padding: 0 0.25rem;
+  list-style: none;
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style the buttons */
+.btn {
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 10px 5px;
+  width: 100%;
+  display: block;
+  margin: 15px 0;
+  border-radius: var(--border-radius);
+  color: var(--purple);
+  border: none;
+  outline: 2px dashed var(--pink);
+  background-color: var(--light);
+  transform: translate(-1px, -1px);
+}
+
+.btn:hover {
+  color: var(--light);
+  background-color: var(--purple);
+  transform: translate(0, 0);
+}
