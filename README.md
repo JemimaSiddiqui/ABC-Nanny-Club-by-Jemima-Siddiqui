@@ -41,7 +41,7 @@ If you would like to acess the source code, please navigate to the following pub
 * After the repository has been cloned to your local machine, open the files using Visual Studio application. 
 
 ## Usage
-Click [here](https://young-escarpment-62681.herokuapp.com/home) to see the deployed application. 
+Click [here](https://young-escarpment-62681.herokuapp.com) to see the deployed application. 
 
 ![ABC Nanny Club Homepage](./assets/homepage.png)
 
